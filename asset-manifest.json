@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.83d9ff31.css",
-    "main.js": "/portofolio/static/js/main.d5e3af20.js",
+    "main.css": "/portofolio/static/css/main.7014570b.css",
+    "main.js": "/portofolio/static/js/main.ea83de2e.js",
     "static/media/profile.png": "/portofolio/static/media/profile.bf83c9ef1e42fa170241.png",
     "static/media/TrainTic.png": "/portofolio/static/media/TrainTic.9c89c0d027275a40117f.png",
     "static/media/logo.png": "/portofolio/static/media/logo.d17858d32e741ed28567.png",
@@ -9,6 +9,7 @@
     "static/media/Sakyre.png": "/portofolio/static/media/Sakyre.6bf142c84637fd93553b.png",
     "static/media/DSHOP.png": "/portofolio/static/media/DSHOP.cde00cffaa840e84daf7.png",
     "static/media/porto1.png": "/portofolio/static/media/porto1.b96e749ad594ff4d67b1.png",
+    "static/media/CV_Samuel Steven Prisma Hasiyono.pdf": "/portofolio/static/media/CV_Samuel Steven Prisma Hasiyono.ddc1989d3ea3a56a62bf.pdf",
     "static/media/PE.png": "/portofolio/static/media/PE.2fa52fb3445371a03b4b.png",
     "static/media/Expense.png": "/portofolio/static/media/Expense.df8013e6e023d802da3e.png",
     "static/media/react.png": "/portofolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -24,11 +25,11 @@
     "static/media/bs.png": "/portofolio/static/media/bs.268c4375260420e8d982.png",
     "static/media/javascript.png": "/portofolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portofolio/index.html",
-    "main.83d9ff31.css.map": "/portofolio/static/css/main.83d9ff31.css.map",
-    "main.d5e3af20.js.map": "/portofolio/static/js/main.d5e3af20.js.map"
+    "main.7014570b.css.map": "/portofolio/static/css/main.7014570b.css.map",
+    "main.ea83de2e.js.map": "/portofolio/static/js/main.ea83de2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.83d9ff31.css",
-    "static/js/main.d5e3af20.js"
+    "static/css/main.7014570b.css",
+    "static/js/main.ea83de2e.js"
   ]
 }
