@@ -10,14 +10,16 @@ import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
+import bs from '../assets/bs.png';
+import figma from '../assets/figma.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='skills' className='w-full h-screen bg-[#041C32] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
+              <p className='text-4xl font-bold inline border-b-4 border-orange-400 '>Skills</p>
               <p className='py-4'>// These are the technologies I've worked with</p>
           </div>
 
@@ -43,16 +45,16 @@ const Skills = () => {
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
+                  <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
+                  <p className='my-4'>TAILWIND</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
-                  <p className='my-4'>MONGO DB</p>
+                  <img className='w-20 mx-auto' src={bs} alt="HTML icon" />
+                  <p className='my-4'>BOOTSTRAP 5</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={AWS} alt="HTML icon" />
-                  <p className='my-4'>AWS</p>
+                  <img className='w-20 mx-auto' src={figma} alt="HTML icon" />
+                  <p className='my-4'>FIGMA</p>
               </div>
           </div>
       </div>
