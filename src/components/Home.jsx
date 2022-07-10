@@ -6,8 +6,9 @@ import { Link } from 'react-scroll';
 const Home = () => {
   
   return (
-    <div name='home' className='w-full h-screen bg-[#041C32] justify-center flex flex-wrap-reverse '>
+    <div  className='section w-full min-h-screen  bg-[#041C32]' >
       {/* Container */}
+      <div className='justify-center flex flex-wrap-reverse'> 
       <div className='w-full mx-auto xl:pl-52  flex flex-col justify-center text-center lg:text-left h-1/2 lg:h-full lg:w-2/3 2xl:w-1/2 px-5 lg:pl-32'>
         <p className='text-[#ECB365]'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#ccd6f6]'>
@@ -32,6 +33,7 @@ const Home = () => {
       </div>
       <div className='w-full mx-auto px-8 flex flex-col justify-center h-1/2 lg:h-full 2xl:w-1/2 lg:w-1/3 pt-32 xl:pt-0 items-center'>
           <img className='lg:w-[500px] mx-auto w-96' src={profile} alt="HTML icon" />         
+      </div>
       </div>
     </div>
   );

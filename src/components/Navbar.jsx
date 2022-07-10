@@ -18,10 +18,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
 
-  
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300  z-50 '>
       <div>
         <img src={Logo} alt='Logo Image' style={{ width: '50px' }} className="rounded-full"/>
       </div>
@@ -29,34 +28,22 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex '>
         <li className='nav-link'>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
+        <a href="#home" >Home</a>
         </li>
         <li className='nav-link'>
-          <Link to='about' smooth={true} duration={500}>
-            About
-          </Link>
+        <a href="#about" >About</a>
         </li>
         <li className='nav-link'>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
+          <a href="#skills" >Skills</a>
         </li>
         <li className='nav-link'>
-          <Link to='work' smooth={true} duration={500}>
-            Work
-          </Link>
+        <a href="#work" >Work</a>
         </li>
         <li className='nav-link'>
-          <Link to='porto' smooth={true} duration={500}>
-            Portfolio
-          </Link>
+        <a href="#portfolio" >Portfolio</a>
         </li>
         <li className='nav-link'>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
+          <a href="#contact" >Contact</a>
         </li>
       </ul>
 
