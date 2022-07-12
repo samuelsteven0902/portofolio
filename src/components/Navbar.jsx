@@ -27,24 +27,22 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className='hidden md:flex '>
-        <li className='nav-link'>
-        <a href="#home" >Home</a>
-        </li>
-        <li className='nav-link'>
-        <a href="#about" >About</a>
-        </li>
-        <li className='nav-link'>
-          <a href="#skills" >Skills</a>
-        </li>
-        <li className='nav-link'>
-        <a href="#work" >Work</a>
-        </li>
-        <li className='nav-link'>
-        <a href="#portfolio" >Portfolio</a>
-        </li>
-        <li className='nav-link'>
-          <a href="#contact" >Contact</a>
-        </li>
+      <a href="#home" > <li className='nav-link' data-aos='fadedown-1'>Home</li> </a>
+        <a href="#about" ><li className='nav-link' data-aos='fadedown-2'>
+        About
+        </li></a>
+        <a href="#skills" ><li className='nav-link' data-aos='fadedown-3'>
+          Skills
+        </li></a>
+        <a href="#work" > <li className='nav-link' data-aos='fadedown-4'>
+       Work
+        </li></a>
+        <a href="#portfolio" ><li className='nav-link' data-aos='fadedown-5'>
+        Portfolio
+        </li></a>
+        <a href="#contact" ><li className='nav-link' data-aos='fadedown-6'>
+          Contact
+        </li></a>
       </ul>
 
       {/* Hamburger */}
@@ -60,41 +58,28 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+        <a href="#home" > <li className='nav-link py-6 text-3xl'>Home</li> </a>
+        <a href="#about" ><li className='nav-link py-6 text-3xl'>
+        About
+        </li></a>
+        <a href="#skills" ><li className='nav-link py-6 text-3xl'>
+          Skills
+        </li></a>
+        <a href="#work" > <li className='nav-link py-6 text-3xl'>
+       Work
+        </li></a>
+        <a href="#portfolio" ><li className='nav-link py-6 text-3xl'>
+        Portfolio
+        </li></a>
+        <a href="#contact" ><li className='nav-link py-6 text-3xl'>
+          Contact
+        </li></a>
       </ul>
 
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 '>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/samuelsph/' target='_blank'
